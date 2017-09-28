@@ -30,4 +30,9 @@ echo "<h2>This is strcmp function</h2>";
 echo strcmp($str_1, $str_2);
 echo "<hr>";
 
+echo "<h2>This is str_repeat function</h2>";
+echo str_repeat($str_1, 5);
+echo "<hr>";
+
+
 ?>
