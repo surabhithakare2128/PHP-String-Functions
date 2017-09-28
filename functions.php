@@ -1,5 +1,5 @@
 <?php
-$str_1 = "Hello World";
+$str_1 = "     Hello World";
 $str_2 = "This is PHP";
 
 echo "<h2>This is strlen function</h2>";
@@ -20,6 +20,10 @@ echo "<hr>";
 
 echo "<h2>This is strpos  function</h2>";
 echo strpos( $str_1 , "Hello");
+echo "<hr>";
+
+echo "<h2>This is ltrim function</h2>";
+echo ltrim($str_1);
 echo "<hr>";
 
 ?>
