@@ -1,6 +1,6 @@
 <?php
 $str_1 = "Hello World";
-$str_2 = "World";
+$str_2 = "This is PHP";
 
 echo "<h2>This is strlen function</h2>";
 echo "the length of " . $str_1 . " is: " . strlen($str_1) ;
@@ -15,5 +15,8 @@ echo strrev($str_1);
 echo "<hr>";
 
 
+echo "<h2>This is str_replace  function</h2>";
+echo str_replace("Hello", "Hi", $str_1);
+echo "<hr>";
 
 ?>
