@@ -10,6 +10,10 @@ echo "<h2>This is str_word_count function</h2>";
 echo str_word_count($str_1);
 echo "<hr>";
 
-//echo strrev("Hello world!");
+echo "<h2>This is strrev function</h2>";
+echo strrev($str_1);
+echo "<hr>";
+
+
 
 ?>
