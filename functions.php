@@ -38,4 +38,8 @@ echo "<h2>This is strtolower function</h2>";
 echo strtolower($str_1);
 echo "<hr>";
 
+echo "<h2>This is strtoupper function</h2>";
+echo strtoupper($str_1);
+echo "<hr>";
+
 ?>
