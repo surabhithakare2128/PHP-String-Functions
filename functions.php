@@ -14,9 +14,12 @@ echo "<h2>This is strrev function</h2>";
 echo strrev($str_1);
 echo "<hr>";
 
-
 echo "<h2>This is str_replace  function</h2>";
 echo str_replace("Hello", "Hi", $str_1);
+echo "<hr>";
+
+echo "<h2>This is strpos  function</h2>";
+echo strpos( $str_1 , "Hello");
 echo "<hr>";
 
 ?>
