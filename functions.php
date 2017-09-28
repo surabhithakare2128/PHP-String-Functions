@@ -34,5 +34,8 @@ echo "<h2>This is str_repeat function</h2>";
 echo str_repeat($str_1, 5);
 echo "<hr>";
 
+echo "<h2>This is strtolower function</h2>";
+echo strtolower($str_1);
+echo "<hr>";
 
 ?>
